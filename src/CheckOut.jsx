@@ -36,6 +36,7 @@ const CheckOut = ({ stepConfig = [] }) => {
             })
         }
     }, [stepRef,stepConfig])
+
     
     return (<>
         <div className="stepper">
